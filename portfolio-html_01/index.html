@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+		
+		<title>Portfólio HTML_01</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="css/estilo.css" type="text/css" rel="stylesheet" />
+		<link href="css/menu-mobile.css" rel="stylesheet" type="text/css" />	
+		<link rel="shortcut icon" type="image/png" href="img/fav.png"/>
+		<!-- Font Awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>	
+	<body>
+
+    	<header>
+			<div class="alinhamento" id="home">
+				<input type="checkbox" id="control-nav" />
+				<label for="control-nav" class="control-nav"></label>
+				<label for="control-nav" class="control-nav-close"></label>
+                <nav class="menu-fixo">
+                    <img class="float-l logo" src="img/logo.png" alt="Logo"></li>
+                    <ul class="menu float-r">
+                        <li class="item-menu">
+							<a href="#home">Início</a>
+                        </li>
+                        <li class="item-menu">
+							<a href="#sobre">Sobre</a>
+                        </li>
+                        <li class="item-menu">
+							<a href="#pratos">Menu</a>
+                        </li>
+                        <li class="item-menu">
+							<a href="#fotos">Fotos</a>
+                        </li>
+                        <li class="item-menu">
+							<a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+				</nav>			
+				<div class="clear-fix"></div>
+				<div class="titulo-home">
+					<h1>Lorem Ipsum<br>Phasellus ultricies sollicitudin sem</h1>
+				</div>	
+            </div>
+		</header>
+		
+		<!-- Destaques -->
+
+		<div class="row alinhamento-padrao center">
+			<div class="bloco-destaques">
+				<h4 class="titulo-destaques">Lorem Ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam nisi nibh, sodales accumsan ipsum accumsan sit amet.</p>
+			</div>
+			<div class="bloco-destaques">
+				<h4 class="titulo-destaques">Lorem Ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam nisi nibh, sodales accumsan ipsum accumsan sit amet.</p>
+			</div>
+			<div class="bloco-destaques">
+				<h4 class="titulo-destaques">Lorem Ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam nisi nibh, sodales accumsan ipsum accumsan sit amet.</p>
+			</div>
+		</div>	
+
+		<!-- SOBRE -->		
+
+		<div id="sobre" class="ancora"></div>
+		<div class="row alinhamento-padrao center">
+				<div class="col-sm-6">
+					<img class="img-restaurante" src="img/restaurant.jpg" />
+				</div>
+				<div class="col-sm-6">	
+					<div class="titulo-restaurante">
+						<h2 class="titulo-h2 borda-titulo">Lorem Ipsum</h2>
+						<p class="texto-restaurante">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida ipsum sed leo luctus vulputate molestie id quam. Cras cursus posuere erat a pulvinar. Praesent fermentum auctor tortor, eget egestas leo vulputate ut. Suspendisse lacinia quam vel purus vestibulum, dapibus accumsan nunc faucibus.</p>
+					</div>	
+				</div>	
+			</div>	
+		</div>
+		<div class="clear-fix"></div>
+
+		<!-- Pratos/Menu -->
+
+		<div id="pratos" class="ancora"></div>
+		<div id="bg-pratos">
+			<h2 class="titulo-h2 titulo-pratos">Menu</h2>
+			<div id="myBtnContainer" class="row alinhamento-padrao center">
+				<button class="btn active" onclick="filterSelection('all')"> Todos</button>
+			  <button class="btn" onclick="filterSelection('carne')"> Carnes</button>
+			  <button class="btn" onclick="filterSelection('peixe')"> Peixes</button>
+			  <button class="btn" onclick="filterSelection('vegano')"> Vegano</button>
+			</div>
+
+			<div class="container">
+				<div class="bloco-pratos">
+					<img class="prato filterDiv carne" src="img/prato01.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv peixe" src="img/prato02.jpeg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv vegano" src="img/prato03.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv peixe" src="img/prato04.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv carne" src="img/prato05.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv peixe" src="img/prato07.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv vegano" src="img/prato09.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv peixe" src="img/prato08.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv carne" src="img/prato06.jpg">
+				</div>	
+				<div class="bloco-pratos">
+					<img class="prato filterDiv vegano" src="img/prato10.jpg">
+				</div>	
+			</div>	
+		</div> 
+
+
+		<!-- FOTOS -->
+
+		<div id="fotos" class="ancora"></div>
+		<div class="center">
+			<h2 class="titulo-h2 margin-titulo">Fotos</h2>
+		</div>		
+		<div class="row center">
+		  <div class="column">
+		    <img src="img/foto01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+		    <img src="img/foto02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+		    <img src="img/foto03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+		    <img src="img/foto04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+		  </div>
+		</div>
+		<div class="clear-fix"></div>
+		<div id="myModal" class="modal row">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+		    <div class="mySlides">
+		      <img src="img/foto01.jpg" style="width:100%">
+		    </div>
+
+		    <div class="mySlides">
+		      <img src="img/foto02.jpg" style="width:100%">
+		    </div>
+
+		    <div class="mySlides">
+		      <img src="img/foto03.jpg" style="width:100%">
+		    </div>		    
+		    <div class="mySlides">
+		      <img src="img/foto04.jpg" style="width:100%">
+		    </div>		    
+		    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		    <div class="column row">
+		      <img class="demo cursor" src="img/foto01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Foto Restaurante 01">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor" src="img/foto02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Foto Restaurante 02">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor" src="img/foto03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Foto Restaurante 03">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor" src="img/foto04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Foto Restaurante 04">
+		    </div>
+		  </div>
+		</div>
+		<div class="clear-fix"></div>
+
+
+		<!-- CONTATO -->
+
+		<div id="contato" class="ancora"></div>
+		<div class="bg-branco center">
+			<h2 class="titulo-h2 center">Contato</h2>
+			<div class="row alinhamento-padrao center">
+				<div class="col-sm-6 center padding-bottom">
+					<p class="texto-contato"><i class="fa fa-map-marker"></i>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</p>
+					<p class="texto-contato"><i class="fa fa-envelope-o"></i>loremipsum@gmail.com</p>
+					<p class="texto-contato"><i class="fa fa-phone"></i>(xx) xxxx - xxxx</p>
+				</div>
+				<div class="col-sm-6">	
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7501.491383128568!2d-43.93824017710868!3d-19.935118646403215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699db6b0568ab%3A0x5faa6ef4447650bb!2sSavassi%2C+Belo+Horizonte+-+MG!5e0!3m2!1spt-BR!2sbr!4v1522957155412" width="90%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>	
+			</div>	
+		</div>
+		<div class="clear-fix"></div>	
+
+		<script>
+
+			// mudando cor do menu ap贸s rolagem
+			$(window).scroll(function() {    
+			    var scroll = $(window).scrollTop();
+
+			    if (scroll >= 300) {
+			        $(".menu-fixo").addClass("rolagem");
+			    } else {
+			        $(".menu-fixo").removeClass("rolagem");
+			    }
+			});
+
+			// rolagem suave
+			$(document).on('click', 'a[href^="#"]', function (event) {
+			    event.preventDefault();
+
+			    $('html, body').animate({
+			        scrollTop: $($.attr(this, 'href')).offset().top
+			    }, 500);
+			});
+
+			//filter menu (utilizando o do w3schools)
+			filterSelection("all")
+			function filterSelection(c) {
+			  var x, i;
+			  x = document.getElementsByClassName("filterDiv");
+			  if (c == "all") c = "";
+			  for (i = 0; i < x.length; i++) {
+			    w3RemoveClass(x[i], "show");
+			    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			  }
+			}
+
+			function w3AddClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+			    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+			  }
+			}
+
+			function w3RemoveClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+			    while (arr1.indexOf(arr2[i]) > -1) {
+			      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+			    }
+			  }
+			  element.className = arr1.join(" ");
+			}
+
+			var btnContainer = document.getElementById("myBtnContainer");
+			var btns = btnContainer.getElementsByClassName("btn");
+			for (var i = 0; i < btns.length; i++) {
+			  btns[i].addEventListener("click", function(){
+			    var current = document.getElementsByClassName("active");
+			    current[0].className = current[0].className.replace(" active", "");
+			    this.className += " active";
+			  });
+			}
+
+			// galeria/modal para fotos (utilizado do site w3schools)
+			function openModal() {
+			  document.getElementById('myModal').style.display = "block";
+			}
+
+			function closeModal() {
+			  document.getElementById('myModal').style.display = "none";
+			}
+
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+		</script>	
+	</body>
+
+	<footer>
+	Desenvolvido por <a href="http://www.rafaelfarrer.com.br/" target='_blank'>Rafael Farrer</a>
+	</footer>
+</html>
